@@ -21,7 +21,7 @@ app.get('/courses/:id', (req, res) => {
     const course = courses.find(c => c.id === id);
     res.send(course); 
    
-})
+})  
 
 app.listen(port, () => {
     console.log('EduCare Server running on port', port);
