@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     res.send('EduCare API Running');
 });
 
-app.get('/allCourses', (req, res) => {
+app.get('/allCourses', (req, res) => { 
     res.send(courses)
 });
 
